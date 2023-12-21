@@ -8,6 +8,7 @@ public class LineComparison {
 		double x = (x2-x1)*(x2-x1);
 		double y = (y2-y1)*(y2-y1);
 		double z = x + y;
+
 		double t;  
 		double line= z/2;  
 		
@@ -16,6 +17,8 @@ public class LineComparison {
 			line=(t+(z/t))/2;  
 		}   
 		while((t-line)!= 0);  
+		
 		System.out.println("Length of a line = "+ line);
 	}
+
 }
