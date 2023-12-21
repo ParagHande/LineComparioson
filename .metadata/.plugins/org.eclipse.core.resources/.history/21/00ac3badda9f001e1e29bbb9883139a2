@@ -31,11 +31,10 @@ public class LineComparison {
 	}   
 	while((u-line2)!= 0); 
 			System.out.println("2nd Length Beetween Two Points= "+ line2);
-//*****************************line Comparison*****************************
 	Double  obj1 = new Double (line1);  
 	Double  obj2 = new Double (line2);  		
 	if(obj1.equals(obj2)){
-		System.out.println("Lenghth of line1 and line2 are Equal");
-	}else System.out.println("Lenghth of line1 and line2 are Not Equal");
+		System.out.println("Lenghth of two line are Equal");
+	}else System.out.println("Lenghth of two line are Not Equal");
 	}
 }
