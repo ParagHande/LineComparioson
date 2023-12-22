@@ -27,7 +27,7 @@ public class LineComparison {
 	double line2= o/2;  
 	do{  
 		u=line2;  
-		line2=(t+(o/u))/2;  
+		line2=(u+(o/u))/2;  
 	}   
 	while((u-line2)!= 0); 
 			System.out.println("2nd Length Beetween Two Points= "+ line2);
