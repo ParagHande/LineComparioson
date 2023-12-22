@@ -14,7 +14,7 @@ public class LineComparison {
 			line1=(t+(z/t))/2;  
 		}   
 		while((t-line1)!= 0);  
-		System.out.println("1st Line Beetween Two Points= "+ line1);
+		System.out.println("1st Line Between Two Points= "+ line1);
 //*****************************2nd line*****************************
 		double m1 = 10;  double n1 = 10;
 		double m2 = 20; double n2 = 20;
@@ -25,7 +25,7 @@ public class LineComparison {
 		double line2= o/2;  
 		do{  
 			u=line2;  
-			line2=(t+(o/u))/2;  
+			line2=(u+(o/u))/2;  
 		}   
 		while((u-line2)!= 0); 
 		System.out.println("2nd Line Beetween Two Points= "+ line2);
