@@ -1,0 +1,24 @@
+package com.bridgelabz.linecompariosn;
+
+public class LineComparison {
+		
+		Line1 l1;
+		Line2 l2;
+		 
+		public void byEquals() {
+			 
+			l1 = new Line1();  
+			l2 = new Line2(); 
+			
+			System.out.println(l1.line1);
+			
+					
+//					if(l1.line1.equals(l2.line2)){
+//						  System.out.println("Lenghth of line1 and line2 are Equal");
+//					}else System.out.println("Lenghth of line1 and line2 are Not Equal");
+//		
+	
+	
+		
+	}
+}

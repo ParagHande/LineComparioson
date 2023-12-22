@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.bridgelabz.linecompariosn.Line.java&apos; to &apos;Line1.java&apos;&#x0D;&#x0A;- Original project: &apos;LineComparisonProblem&apos;&#x0D;&#x0A;- Original element: &apos;com.bridgelabz.linecompariosn.Line.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.bridgelabz.linecompariosn.Line1.java&apos;" description="Rename compilation unit &apos;Line.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;com.bridgelabz.linecompariosn{Line.java" name="Line1.java" references="false" stamp="1703264313602" version="1.0"/>
+</session>

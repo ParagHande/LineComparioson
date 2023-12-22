@@ -1,0 +1,22 @@
+package com.bridgelabz.linecompariosn;
+
+public class LineComparison {
+	public static void main(String[] args) {
+		
+		Line1 line1;
+		Line2 line2;
+		 
+		double byEquals() {
+			 
+		Double  line1 = new Double (line1);  
+		Double  line2 = new Double (line2); 
+				
+				if(line1.equals(line2)){
+					System.out.println("Lenghth of line1 and line2 are Equal");
+				}else System.out.println("Lenghth of line1 and line2 are Not Equal");
+			}
+	
+	
+		
+	}
+}

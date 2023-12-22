@@ -1,0 +1,15 @@
+package com.bridgelabz.linecompariosn;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		
+		LineComparison l1 = new LineComparison();
+		l1.equals();
+		
+		
+		
+	}
+
+}
+;

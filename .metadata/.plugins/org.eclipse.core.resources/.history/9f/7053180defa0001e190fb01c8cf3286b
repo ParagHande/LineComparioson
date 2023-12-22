@@ -1,0 +1,13 @@
+package com.bridgelabz.linecompariosn;
+
+public class LineComparison {
+	public static void main(String[] args) {
+		
+		 Line1 line;
+		 Line2 line2;
+		 
+		
+		
+		
+	}
+}

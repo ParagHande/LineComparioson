@@ -1,0 +1,16 @@
+package com.bridgelabz.linecompariosn;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		
+		LineComparison l1 = new LineComparison();
+		System.out.println("1st Length Between Two Points= "+ l1.l1.line1);
+		l1.byEquals();
+		
+		
+		
+	}
+
+}
+;

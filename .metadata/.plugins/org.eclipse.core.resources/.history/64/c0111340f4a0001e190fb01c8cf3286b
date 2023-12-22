@@ -1,0 +1,21 @@
+package com.bridgelabz.linecompariosn;
+
+public class Line2 {
+	double m1 = 15;  double n1 = 15;
+	double m2 = 20; double n2 = 20;
+	double m = (m2-m1)*(m2-m1);
+	double n = (n2-n1)*(n2-n1);
+	double o = m + n;
+	double u;  
+	double line2= o/2;  
+	public void line2() {
+		do{  
+			u=line2;  
+			line2=(u+(o/u))/2;  
+			}   
+		while((u-line2)!= 0); 
+				System.out.println("2nd Length Between Two Points= "+ line2);
+	}
+	
+
+}

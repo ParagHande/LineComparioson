@@ -1,41 +1,29 @@
 package com.bridgelabz.linecompariosn;
 
 public class LineComparison {
-	public static void main(String[] args) {
-		double x1 = 5;  double y1 = 5;
-		double x2 = 8; double y2 = 8;
-		double x = (x2-x1)*(x2-x1);
-		double y = (y2-y1)*(y2-y1);
-		double z = x + y;
-		double t;  
-		double line1= z/2; 
-		do{  
-			t=line1;  
-			line1=(t+(z/t))/2;  
-		}   
-		while((t-line1)!= 0);  
-		System.out.println("1st Line Beetween Two Points= "+ line1);
-//*****************************2nd line*****************************
-		double m1 = 10;  double n1 = 10;
-		double m2 = 20; double n2 = 20;
-		double m = (m2-m1)*(m2-m1);
-		double n = (n2-n1)*(n2-n1);
-		double o = m + n;
-		double u;  
-		double line2= o/2;  
-		do{  
-			u=line2;  
-			line2=(t+(o/u))/2;  
-		}   
-		while((u-line2)!= 0); 
-		System.out.println("2nd Line Beetween Two Points= "+ line2);
-//***************************line Comparison*******************************	
-		Double  l1 = new Double (line1);  
-		Double  l2 = new Double (line2);  
-		if((l1.compareTo(l2))==0){
-			System.out.println("Both Lenght of lines are Equal");
-		}else if ((l1.compareTo(l2))>0) {
-			System.out.println("Lenghth of line1 is Greater than line2");
-		}else System.out.println("Lenghth of line2 is Greater than line1");		
-	}
+		
+		Line1 l1;
+		Line2 l2;
+
+		public void byEquals() {
+			l1 = new Line1();  
+			l2 = new Line2(); 
+			if(new Double (l1.line1).equals( new Double (l2.line2))){
+				  System.out.println("Lenghth of line1 and line2 are Equal - Using equals() method");
+			}else System.out.println("Lenghth of line1 and line2 are Not Equal - Using equals() method");
+		
+		}
+		
+		public void byCompareTo() {
+			l1 = new Line1();  
+			l2 = new Line2(); 
+			if((new Double (l1.line1).compareTo(new Double (l2.line2)))==0){
+				  System.out.println("Both Lenght of lines are Equal - Using compareTo() method");
+			}else if ((new Double (l1.line1).compareTo(new Double (l2.line2)))>0) {
+				  System.out.println("Lenghth of line1 is Greater than line2 - Using compareTo() method");
+			}else System.out.println("Lenghth of line2 is Greater than line1 - Using compareTo() method");		
+		}
+			
+		
+		
 }
